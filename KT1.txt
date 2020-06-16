@@ -21,3 +21,16 @@ SELECT CONVERT(column USING utf8) FROM table;
       let file = `new_name.${image.getExtension()}`
       return image.write(file) // save
     })
+
+
+3. How Can I Wait In Node.js (Javascript), l need to pause for a period of time
+   setTimeout(function, 3000);
+   
+4. Why docker container exits immediately
+   add && tail -f /dev/null at the end of command
+   ec.   /usr/local/start-all.sh && tail -f /dev/null
+
+5  GeeksForGeeks
+   https://www.geeksforgeeks.org/echo-command-in-linux-with-examples/
+   
+   
